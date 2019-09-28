@@ -12,3 +12,5 @@ Read stock ticker symbol and queries for dividend data
 BeautifulSoup4
 
 python-telegram-bot
+
+cachetools
