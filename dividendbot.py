@@ -17,12 +17,12 @@ def main():
     #read config file
     config = configparser.ConfigParser()
     config.read('config.ini')
-    tid = config['ID']['telegram']
+    token_id = config['ID']['telegram']
 
     """Run the bot."""
     global update_id
     # Telegram Bot Authorization Token
-    bot = telegram.Bot(tid)
+    bot = telegram.Bot(token_id)
 
     # get the first pending update_id, this is so we can skip over it in case
     # we get an "Unauthorized" exception.
