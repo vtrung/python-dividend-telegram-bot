@@ -9,8 +9,10 @@ https://telegram.me/dividendquerybot
 Read stock ticker symbol and queries for dividend data
 
 ### Dependencies
-BeautifulSoup4
+* BeautifulSoup4
+* python-telegram-bot
+* cachetools
+* requests
 
-python-telegram-bot
-
-cachetools
+### How to add your bot
+https://telegra.ph/Awesome-Telegram-Bot-11-11
